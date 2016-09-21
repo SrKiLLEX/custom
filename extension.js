@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "WoP, A Botzinha :nail_care:",
+      botName: "John,Titor,
       language: "portuguese",
       chatLink: "https://rawgit.com/carlosney/basicBot/master/lang/pt-BR.json",
       scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
@@ -90,7 +90,7 @@
       afkRankCheck: "ambassador",
       motdEnabled: true,
       motdInterval: 10,
-      motd: "Entrem no nosso grupo do FB http://goo.gl/8iFw1s , e curtam a nossa página http://goo.gl/gxOOmp :kiss: :sparkles:",
+      motd: "Entrem no nosso grupo do FB http://bit.ly/2d1hw3Y , 
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -104,12 +104,7 @@
       messageInterval: 5,
       songstats: false,
       commandLiteral: "!",
-      blacklists: {
-        NSFW: "https://rawgit.com/bscBot/custom/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/bscBot/custom/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/bscBot/custom/master/blacklists/BANNEDlist.json"
-      }
-    }));
+      
 
     // Start the bot and extend it when it has loaded.
     $.getScript("https://rawgit.com/bscBot/source/master/basicBot.js", extend);
